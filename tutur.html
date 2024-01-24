@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <button onclick="alert('how are you?')"> Click Me</button>
+
+
+    <script>
+
+        title ="javascript"
+        let titleIndex = title[1]
+        let titleLength = title.length - 1;
+
+        console.log(titleLength);
+        console.log(titleIndex);
+
+        let employee1 = {
+            employeeName : "Aisha",
+            age : 20,
+            role : "manager",
+            address : "lagos"
+        }
+        
+        console.log(employee1);
+        // const me = employee1.employeeName;
+        // console.log(me);
+        console.log(employee1.employeeName);
+        console.log(employee1.role);
+
+        let isThisTrue = true
+        console.log(isThisTrue);
+
+        let myOwnName = "Aisha is";
+        let myOwnAge = 20;
+        let additionalInfo = "years old"
+
+        let sentence = myOwnName + myOwnAge + additionalInfo
+        sentence = myOwnName + " " + myOwnAge + " " + additionalInfo + "."
+        let anewSentence = `${myOwnName} ${myOwnAge} ${additionalInfo}.`
+        console.log(sentence);
+        console.log(anewSentence);
+
+        let date = "Today is";
+        let mine = "my"
+        let event = "birthday"
+
+        let sentenc = `${date} ${mine} ${event} `
+        console.log(sentenc); 
+
+        const myArray= ["Rukaya", "Maevellous","Grace","Munirah"];
+        console.log(myArray[1]);
+        myArray[0]="Salamat";
+        console.log(myArray);
+        console.log(myArray.length);
+
+    </script>
+    
+</body>
+</html>
